@@ -25,9 +25,9 @@ body:
     id: justification
     attributes:
       label: Justification
-      description: 'Provide the business reasons for this request. |
+      description: Provide the business reasons for this request. |
       • something |
-      • something else'
+      • something else
   - type: textarea
     id: metrics
     attributes:
