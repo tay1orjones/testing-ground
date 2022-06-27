@@ -28,6 +28,9 @@ body:
       description: 'Provide the business reasons for this request. \n |
       • something |
       • something else'
+      value: |
+        • something
+        • something else
   - type: textarea
     id: metrics
     attributes:
