@@ -32,7 +32,7 @@ jobs:
                     "text": "TESTING",
                     "emoji": true
                   }
-                },
+                }
               ]
             }
         env:
