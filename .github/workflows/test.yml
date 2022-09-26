@@ -21,17 +21,69 @@ jobs:
               "text": "Test",
               "blocks": [
                 {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Join us for Carbon Developer Office Hours!",
+                    "emoji": true
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
                   "type": "image",
                   "image_url": "https://carbondesignsystem.com/static/406b7e7bf6865c094dd9a7a0bcb8bd41/3cbba/light-getting-started-developers.png",
                   "alt_text": "A terminal prompt symbol"
                 },
                 {
-                  "type": "header",
+                  "type": "section",
                   "text": {
-                    "type": "plain_text",
-                    "text": "TESTING",
-                    "emoji": true
+                    "type": "mrkdwn",
+                    "text": "_Are you running into a weird bug you can’t resolve?_ :thinking_face:  _Do you want some help using Carbon v10 or v11?_ :handshake: \n\n\n *Carbon developer office hours* are a bi-weekly opportunity to ask questions and get help from the team. Developers from the Carbon System Squad, who maintain the core React components, elements and styles, will be available to help."
                   }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":yourlearning:  *Subscribe, add to your calendar, attend the next meeting*     :ibm-arrow-right::ibm-arrow-right::ibm-arrow-right:"
+                  },
+                  "accessory": {
+                    "type": "button",
+                    "text": {
+                      "type": "plain_text",
+                      "text": "Subscribe",
+                      "emoji": true
+                    },
+                    "value": "click_me_123",
+                    "url": "https://ec.yourlearning.ibm.com/w3/enrollment/event/10289726",
+                    "action_id": "button-action"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":memo:  *Sign up to get help in a future session*     :ibm-arrow-right::ibm-arrow-right::ibm-arrow-right:"
+                  },
+                  "accessory": {
+                    "type": "button",
+                    "text": {
+                      "type": "plain_text",
+                      "text": "View the agenda",
+                      "emoji": true
+                    },
+                    "value": "click_me_123",
+                    "url": "https://ibm.biz/carbon-dev-office-hours",
+                    "action_id": "button-action"
+                  }
+                },
+                {
+                  "type": "divider"
                 }
               ]
             }
