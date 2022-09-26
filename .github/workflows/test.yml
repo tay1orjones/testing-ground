@@ -21,18 +21,18 @@ jobs:
               "text": "Test",
               "blocks": [
                 {
-			            "type": "image",
-            			"image_url": "https://carbondesignsystem.com/static/406b7e7bf6865c094dd9a7a0bcb8bd41/3cbba/light-getting-started-developers.png",
-            			"alt_text": "A terminal prompt symbol"
-            		},
-            		{
-            			"type": "header",
-            			"text": {
-            				"type": "plain_text",
-            				"text": "TESTING",
-            				"emoji": true
-            			}
-            		},
+                  "type": "image",
+                  "image_url": "https://carbondesignsystem.com/static/406b7e7bf6865c094dd9a7a0bcb8bd41/3cbba/light-getting-started-developers.png",
+                  "alt_text": "A terminal prompt symbol"
+                },
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "TESTING",
+                    "emoji": true
+                  }
+                },
               ]
             }
         env:
